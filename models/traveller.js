@@ -19,7 +19,9 @@ Traveller.prototype.getJourneyEndLocations = function () {
 };
 
 Traveller.prototype.getJourneysByTransport = function (transport) {
-
+    const transportFilter = this.journeys.filter( journey => journey.transport === transport);
+    return transportFilter;
+  
 };
 
 Traveller.prototype.getJourneysByMinDistance = function (minDistance) {
