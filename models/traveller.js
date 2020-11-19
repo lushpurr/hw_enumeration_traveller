@@ -43,15 +43,7 @@ Traveller.prototype.getUniqueModesOfTransport = function () {
   
 
 
-// var resArr = [];
-// data.filter(function(item){
-//   var i = resArr.findIndex(x => (x.name == item.name && x.date == item.date && x.amt == item.amt));
-//   if(i <= -1){
-//         resArr.push(item);
-//   }
-//   return null;
-// });
-// console.log(resArr)
+
 
 
 module.exports = Traveller;
